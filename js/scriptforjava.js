@@ -1,0 +1,52 @@
+$('.a').click(function(){
+    $('.A').show();
+    $('.B').hide();
+    $('.C').hide();
+    $('.D').hide();
+    $('.E').hide();
+});
+$('.b').click(function(){
+    $('.B').show();
+    $('.A').hide();
+    $('.C').hide();
+    $('.D').hide();
+    $('.E').hide();
+});
+$('.c').click(function(){
+    $('.C').show();
+    $('.A').hide();
+    $('.B').hide();
+    $('.D').hide();
+    $('.E').hide();
+});
+$('.d').click(function(){
+    $('.D').show();
+    $('.A').hide();
+    $('.C').hide();
+    $('.B').hide();
+    $('.E').hide();
+});
+$('.e').click(function(){
+    $('.E').show();
+    $('.A').hide();
+    $('.C').hide();
+    $('.D').hide();
+    $('.B').hide();
+});
+$('.image2').parallax('50%', .5);
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})

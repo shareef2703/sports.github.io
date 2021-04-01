@@ -1,0 +1,35 @@
+$('.a').click(function(){
+    $('.A').show();
+    $('.B').hide();
+    $('.C').hide();
+    $('.D').hide();
+    $('.E').hide();
+});
+$('.b').click(function(){
+    $('.B').show();
+    $('.A').hide();
+    $('.C').hide();
+    $('.D').hide();
+    $('.E').hide();
+});
+$('.c').click(function(){
+    $('.C').show();
+    $('.A').hide();
+    $('.B').hide();
+    $('.D').hide();
+    $('.E').hide();
+});
+$('.d').click(function(){
+    $('.D').show();
+    $('.A').hide();
+    $('.C').hide();
+    $('.B').hide();
+    $('.E').hide();
+});
+$('.e').click(function(){
+    $('.E').show();
+    $('.A').hide();
+    $('.C').hide();
+    $('.D').hide();
+    $('.B').hide();
+});

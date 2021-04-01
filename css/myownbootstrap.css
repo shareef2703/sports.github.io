@@ -1,0 +1,85 @@
+
+.absolute{
+    position: absolute;
+}
+.black{
+    color: black;
+}
+.block{
+    display: block;
+}
+.blue{
+    color:blue;
+}
+.bold{
+    font-weight: bold;
+}
+.edgepartialround{
+    border-radius: 5px 5px 5px 5px;
+}
+.edgeround{
+    border-radius: 18px 18px 18px 18px;
+    outline: none;
+    border: none;
+}
+.green{
+    color: green;
+}
+.inline-block{
+    display: inline-block;
+}
+.italic{
+    font-style: italic;
+}
+.letterspace1{
+    letter-spacing: 1px;
+}
+.letterspace2{
+    letter-spacing: 2px;
+}
+.letterspace3{
+    letter-spacing: 3px;
+}
+.nostyle{
+    list-style: none;
+}
+.overline{
+    text-decoration: overline;
+}
+.red{
+    color: red;
+}
+.relative{
+    position: relative;
+}
+.round{
+    border-radius: 50%;
+}
+
+.textcenter{
+    text-align: center;
+}
+.textleft{
+    text-align: left;
+}
+.textright{
+    text-align: right;
+}
+.underline{
+    text-decoration: underline;
+}
+.white{
+    color: white;
+}
+.wordspace1{
+    word-spacing: 1px;
+}
+.wordspace2{
+    word-spacing: 2px;
+}
+.wordspace3{
+    word-spacing: 3px;
+}
+.yellow{
+    color: yellow;
+}

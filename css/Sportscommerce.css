@@ -1,0 +1,668 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.animate__backInRight{
+    animation-delay:1s;
+}
+.animate__bounceInUp{
+    animation-delay:1.5s;
+}
+body{
+    position: relative;
+}
+.back{
+    z-index: 1;
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    opacity: .4;
+}
+.header{
+    width: 100%;
+    height: 48px;
+    background-color:;
+    display: inline-block;
+    position: relative;
+     
+    z-index: 2;
+}
+.logo{
+    width: 15%;
+    height: 48px;
+    background-color:;
+    position: relative;
+    display: inline-block
+}
+.logo .line{
+    
+    background-color:;
+    display: inline-block;
+}
+.logo .mainlogo{
+    position: absolute;
+    background-color:;
+    display: inline-block;
+    top:11px;
+    left:52px;
+}
+.header .menu{
+    width: 60%;
+    height: 48px;
+    background-color:;
+    display: inline-block;
+    position: absolute;
+    
+    top: 0px;
+   
+}
+.header .menu ul{
+    list-style: none;
+}
+.header .menu ul li{
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 47px;
+    font-family: montsemi;
+    color: white;
+}
+.header .icons{
+    width: 22%;
+    height: 48px;
+    position: absolute;
+    left: 1036px;
+    top: 10px;
+    display: inline-block;
+    
+}
+.header .icons .sm{
+    width: 70%;
+    height: 48px;
+    display: inline-block;
+    
+}
+.header .icons .sm img{
+    margin-left: 19px;
+    
+}
+.header .icons .search{
+    display: inline-block;
+    width: 28%;
+    height: 48px;
+}
+.header .icons .search img{
+    margin-left: 13px;
+}
+.group1{
+    width: 100%;
+    height: 795px;
+    background-color:;
+    position: relative;
+}
+.group1 h1, p{
+    font-family: popbold;
+    color: blanchedalmond;
+}
+.group1 .first{
+    position: absolute;
+    top: 76px;
+    left: 277px;
+    font-size: 161px;
+}
+.group1 .second{
+    position: absolute;
+    top: 198px;
+    left: 190px;
+    font-size: 161px;
+}
+.group1 p{
+    position: absolute;
+    top: 380px;
+    left: 215px;
+    font-size: 17px;
+    letter-spacing: 8px;
+
+}
+.group1 .third{
+    width: 136px;
+    height: 48px;
+    border-radius: 18px 18px 18px 18px;
+    font-family: montsemi;
+    color: blanchedalmond;
+    position: absolute;
+    top: 432px;
+    left: 390px;
+    background-color: #3953DB;
+    outline: none;
+    border: none;
+}
+.big{
+    width: 1150px;
+    height: 2368px;
+    box-shadow: 0px 14px 30px #AAA7AD;
+    background-color:white;
+    position: absolute;
+    left: 100px;
+    z-index: 2;
+}
+.group2{
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    background-color:;
+    position: relative;
+}
+.group2 .firstgp2{
+    display: inline-block;
+    width: 25%;
+    height: 250px;
+    background-color: ;
+    position: relative;
+    
+}
+.group2 .secondgp2{
+    display: inline-block;
+    width: 24%;
+    height: 250px;
+    background-color: ;
+    position: relative;
+    
+}
+.group2 .thirdgp2{
+    display: inline-block;
+    width: 24%;
+    height: 250px;
+    background-color: ;
+    position: relative;
+    
+}
+.group2 .forthgp2{
+    display: inline-block;
+    width: 25%;
+    height: 250px;
+    background-color: ;
+    position: relative;
+    
+}
+.group2 .firstgp2 img{
+    position: absolute;
+    top: 40px;
+    left: 128px;
+    width: 27px;
+    height: 27px;
+}
+.group2 .firstgp2 h1{
+    font-family: babe;
+    position: absolute;
+    top: 80px;
+    left: 66px;
+    color: #223050;
+}
+.group2 .firstgp2 p{
+    font-family: montlight;
+    position: absolute;
+    top: 117px;
+    left: 7px;
+    color: #5C5C5C;
+}
+.group2 .firstgp2 a{
+    text-decoration: none;
+    position: absolute;
+    top: 196px;
+    left: 102px;
+    font-family: montsemi;
+}
+.group2 .secondgp2 img{
+    position: absolute;
+    top: 40px;
+    left: 128px;
+    width: 27px;
+    height: 27px;
+}
+.group2 .secondgp2 h1{
+    font-family: babe;
+    position: absolute;
+    top: 80px;
+    left: 66px;
+    color: #223050;
+}
+.group2 .secondgp2 p{
+    font-family: montlight;
+    position: absolute;
+    top: 117px;
+    left: 24px;
+    color: #5C5C5C;
+}
+.group2 .secondgp2 a{
+    text-decoration: none;
+    position: absolute;
+    top: 196px;
+    left: 96px;
+    font-family: montsemi;
+}
+.group2 .thirdgp2 img{
+    position: absolute;
+    top: 40px;
+    left: 128px;
+    width: 27px;
+    height: 27px;
+}
+.group2 .thirdgp2 h1{
+    font-family: babe;
+    position: absolute;
+    top: 80px;
+    left: 66px;
+    color: #223050;
+}
+.group2 .thirdgp2 p{
+    font-family: montlight;
+    position: absolute;
+    top: 117px;
+    left: 24px;
+    color: #5C5C5C;
+}
+.group2 .thirdgp2 a{
+    text-decoration: none;
+    position: absolute;
+    top: 196px;
+    left: 96px;
+    font-family: montsemi;
+}
+.group2 .forthgp2 img{
+    position: absolute;
+    top: 40px;
+    left: 128px;
+    width: 27px;
+    height: 27px;
+}
+.group2 .forthgp2 h1{
+    font-family: babe;
+    position: absolute;
+    top: 80px;
+    left: 66px;
+    color: #223050;
+}
+.group2 .forthgp2 p{
+    font-family: montlight;
+    position: absolute;
+    top: 117px;
+    left: 7px;
+    color: #5C5C5C;
+}
+.group2 .forthgp2 a{
+    text-decoration: none;
+    position: absolute;
+    top: 196px;
+    left: 102px;
+    font-family: montsemi;
+}
+.group2 .line1{
+    width: 2px;
+    height: 250px;
+    background-color: #C3C3C3;
+    left: 296px;
+    display: inline-block;
+    position: absolute;
+}
+.group2 .line2{
+    width: 2px;
+    height: 250px;
+    background-color: #C3C3C3;
+    left: 575px;
+    display: inline-block;
+    position: absolute;
+}
+.group2 .line3{
+    width: 2px;
+    height: 250px;
+    background-color: #C3C3C3;
+    left: 856px;
+    display: inline-block;
+    position: absolute;
+}
+.group3{
+    width: 100%;
+    position: relative;
+    height: 570px;
+    background-color: ;
+}
+.group3 .gp3first{
+    width: 50%;
+    height: 570px;
+    background-color: #F2F0F1;
+    display: inline-block;
+    position: relative;
+}
+.group3 img{
+    position: absolute;
+    top: 0px;
+    left: 575px;
+}
+.group3 .gp3first h3{
+    font-family: popsemi;
+    position: absolute;
+    top: 95px;
+    left: 186px;
+    color: #939393;
+}
+.group3 .gp3first .boro{
+    font-family:babe;
+    position: absolute;
+    top: 131px;
+    left: 122px;
+    color: #142B53;
+}
+.group3 .gp3first p{
+    font-family:montbold;
+    position: absolute;
+    text-align: center;
+    top: 190px;
+    left: 0px;
+    color: #B0AFAF;
+}
+.group3 .gp3first .choto{
+    font-family:montbold;
+    position: absolute;
+    top: 277px;
+    left: 168px;
+    font-size: 39px;
+    color: #2243D7;
+}
+.group3 .gp3first h2{
+    font-family:montmedium;
+    position: absolute;
+    top: 283px;
+    left: 303px;
+    font-size: 29px;
+}
+.group3 .gp3first img{
+    font-family:;
+    position: absolute;
+    top: 364px;
+    left: 168px;
+    width: 220px;
+    height: 68px;
+}
+.group3 .gp3first input{
+    font-family:montregu;
+    position: absolute;
+    top: 477px;
+    left: 224px;
+    width: 100px;
+    height: 31px;
+    outline: none;
+    border: none;
+    background-color: #3953DB;
+    border-radius: 18px 18px 18px 18px;
+    color: white;
+}
+.group4 {
+    width: 100%;
+    height: 649px;
+    background-color: ;
+}
+.group4 .item{
+    width:287px;
+    height: 287px;
+    background-color: ;
+    
+}
+.group4 .item img{
+    width: 287px;
+    height: 172.016px;
+}
+.group4 .item {
+    position: relative;
+}
+.group4 .item h2{
+    position: absolute;
+    top: 200px;
+    left: 26px;
+    font-family: babe;
+    color: #253E62;
+}
+.group4 .item p{
+    position: absolute;
+    top: 229px;
+    left: 26px;
+    font-family: montregu;
+    color: #9BA7F0;
+}
+.group4 .image1{
+    width: 575px;
+    height: 300px;
+    background-color: #232323;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.group4 .image2{
+    width: 575px;
+    height: 300px;
+    background-color: ;
+    display: inline-block;
+    position: relative;
+}
+.group4 .image2 img{
+    width: 573px;
+    height: 300px;
+    
+}
+.group4 .image2     h1{
+    font-family: popitalic;
+    color: white;
+    position: absolute;
+    top: 42px;
+    left: 38px;
+    font-size: 40px;
+}
+.group4 .image2 input{
+    position: absolute;
+    top: 238px;
+    left: 38px;
+    width: 103px;
+    height: 31px;
+    border-radius: 18px 18px 18px 18px;
+    outline: none;
+    background-color: #5ECBFF;
+    border: none;
+    font-family: montregu;
+}
+.group4 .image1 h1{
+    font-family: babe;
+    position: absolute;
+    color: white;
+    letter-spacing: 2px;
+    top: 42px;
+    left: 38px;
+    font-size: 40px;
+}
+.group4 .image1 p{
+    position: absolute;
+    top: 94px;
+    left: 38px;
+    color: white;
+    letter-spacing: 2px;
+}
+.group4 .image1 input{
+    position: absolute;
+    top: 134px;
+    left: 38px;
+    width: 103px;
+    height: 31px;
+    border-radius: 18px 18px 18px 18px;
+    outline: none;
+    background-color: #5ECBFF;
+    border: none;
+    font-family: montregu;
+}
+.group5{
+    width: 100%;
+    height: 500px;
+    background-color: ;
+}
+.group6{
+    width: 100%;
+    height: 400px;
+    background-color: ;
+}
+.group5 img{
+    width: 100%;
+    height: 500px;
+}
+.group6 img{
+    width: 100%;
+    height: 400px;
+}
+.last{
+    width: 100%;
+    height: 520px;
+    background-color: #212121;
+    
+    top: 2285px;
+    z-index: -1;
+    position: relative;
+}
+.last .last1{
+    width: 190px;
+    height: 285px;
+    position: absolute;
+    background-color: ;
+    top: 131px;
+    left: 132px;
+    font-family: popregu;
+}
+.last .last2{
+    width: 185px;
+    height: 285px;
+    position: absolute;
+    background-color: ;
+    top: 131px;
+    left: 372px;
+    font-family: popregu;
+}
+.last .last3{
+    width: 214px;
+    height: 285px;
+    position: absolute;
+    background-color: ;
+    top: 131px;
+    left: 610px;
+    font-family: popregu;
+}
+.last .last4{
+    width: 387px;
+    height: 285px;
+    background-color: ;
+    position: absolute;
+    top: 131px;
+    left: 907px;
+    font-family: popregu;
+    position: relative;
+}
+.last .last4 .img{
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.last .img1{
+    position: absolute;
+    top: 52px;
+    left: 12px;
+}
+.last .last4 .last41{
+    color: #3854D0;
+}
+.last .last4 .last42{
+    position: absolute;
+    top: 154px;
+    left: 0px;
+    color: #3854D0;
+}
+.last .last4 .last43{
+    position: absolute;
+    top: 191px;
+    left: 0px;
+    border-radius: 18px 18px 18px 18px;
+    outline: none;
+    border: none;
+    width:305px;
+    height: 32px;
+    font-family: popregu;
+    background-color: #2F2F2F;
+}
+.last .last4 .last44{
+    position: absolute;
+    top: 228px;
+    left: 0px;
+    border-radius: 18px 18px 18px 18px;
+    outline: none;
+    border: none;
+    width:98px;
+    height: 28px;
+    font-family: popregu;
+    background-color: #3854D0;
+    color: white;
+}
+.last hr{
+    position: absolute;
+    top: 440px;
+    width: 100%;
+    color:white;
+}
+.header .menu .submen ul{
+    list-style: none;
+}
+.header .menu .submen ul li{
+    display: block;
+}
+.submen{
+    width: 143px;
+    height: 164px;
+    background-color: #005E9E;
+    display: none;
+    position: absolute;
+    top: 47px;
+    border-radius: 0px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

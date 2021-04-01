@@ -1,0 +1,75 @@
+body{
+   background-color:;
+width: 100%;
+}
+@keyframes photo{
+   from{
+      opacity: 0.4;
+      transform:translateX(10%) ;
+   }
+   to{
+      opacity: 1;
+      transform: translateX(0%);
+   }
+}
+.a, .b, .c, .d, .e{
+   background: transparent;
+   width: 100px;
+   height: 20px;
+   border: 2px solid black;
+   display: inline-block;
+   cursor: pointer;
+}
+.B, .C, .D, .E {
+   display: none;
+}
+.A, .B, .C, .D, .E{
+   animation: photo 1s;
+}
+.image1, .image2, .image3{
+   width: 100%;
+   height: 300px;
+}
+.image1{
+   background-color: brown;
+}
+
+.image3{
+   background-color: red;
+}
+
+.header ul{
+   list-style: none;
+  text-align: center;
+}
+.header ul li{
+   display: inline-block;
+   padding-left: 10px;
+  
+}
+.class{
+   width: 100%;
+   height: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+menu--OpenSans Bold
+groupA--1437x841 h1---openSans ExtraBold
+h2--OpenSans BoldItalic
+readmore---OpenSans ExtraBold
+para----OpenSans Italic
+groupB---1433x895---para---OpenSans
+3divs---h1--OpenSans Bold--para---OpenSans
+groupC 1435x576---h1 bold---para sans----button bold
+groupD 1438x575
+groupE--1437x681 h1 OpenSans SemiBold
+groupF 1435x775---ExtraBoldItalic
+groupG 1435x552--h1 OpenSans Bold--para OpenSans--coma Bold----para SemiBold---lorem SemiBold
+groupH 1435x652
+groupI 1435x635 montserratregular
